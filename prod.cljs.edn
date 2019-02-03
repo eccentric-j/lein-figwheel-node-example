@@ -1,0 +1,15 @@
+^{:watch-dirs ["src"]}
+{:main my-test-project.core
+ :output-to            "target/main.js"
+ :output-dir           "target/js/compiled/prod"
+ :target               :nodejs
+ :optimizations        :simple
+ :source-map           false
+ :source-map-timestamp false
+ :npm-deps             {:blessed "0.1.81"
+                        :react-blessed "0.5.0"
+                        :react "16.7.0"
+                        :react-dom "16.7.0"
+                        :create-react-class "15.6.3"
+                        :node-json-color-stringify "1.1.0"}
+ :install-deps         true}
